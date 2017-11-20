@@ -74,7 +74,7 @@ var checkForNewClip = function() {
 var sendNewClip = function(clip) {
   let message = "__**New clip uploaded**__: \"" + clip.title + "\"\n\n*View more clips at* http://patricheal.com/clips/\n\n" + clip.url;
   client.guilds.forEach((guild) => {
-    guild.systemChannel.send(message);
+    guild.defaultChannel.send(message);
   });
 };
 
