@@ -63,6 +63,8 @@ var checkForNewClip = function() {
     if (newClips[newClips.length - 1]) {
       clipLastUploadedTime = newClips[newClips.length - 1].date_added;
     }
+  }).catch((error) => {
+    console.log(error);
   });
 };
 
