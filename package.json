@@ -1,0 +1,14 @@
+{
+  "name": "clippy-bot",
+  "description": "A Discord bot to post notifications when new Streamable clips have been uploaded",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pricheal/clippy-bot.git"
+  },
+  "author": "Pat Richeal",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "discord.js": "^11.2.1"
+  }
+}
